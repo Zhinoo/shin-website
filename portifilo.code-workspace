@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Zhino"
+		}
+	],
+	"settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Zhino"
+  }
+}
