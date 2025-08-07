@@ -1356,3 +1356,123 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.books-page {
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.books-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.recommended-book .book-featured {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 6px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.book-featured .book-info {
+  max-width: 600px;
+}
+
+.book-featured .book-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book-featured .book-info p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.book-featured .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.buy-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.price {
+  background-color: #e6f5f0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.book-img {
+  width: 160px;
+  height: 160px;
+  transform: rotate(20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.book-img.red { background-color: red; }
+.book-img.green { background-color: #7ed957; }
+.book-img.pink { background-color: #f06bd6; }
+
+.available-books .books-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  padding: 20px;
+}
+
+.book-card h3 {
+  font-size: 16px;
+  margin: 15px 0 10px;
+}
+
+.book-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.view-btn {
+  background-color: red;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
